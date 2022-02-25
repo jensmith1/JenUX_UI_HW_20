@@ -5,20 +5,13 @@ body {
 
 
 #hero {
-    background-image: url("../images/hero.png");
+    background-color: #db5461;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     height: 75vh;
 }
 
-#logo {
-    width: 50px;
-    height: 40px;
-}
-.nav-link.active {
-    font-weight: 800;
-}
 
 .navbar-light .navbar-nav .nav-link {
     color:white !important;
@@ -29,12 +22,19 @@ body {
     flex-grow: unset;
 }
 .navbar-expand-lg .navbar-nav li {
-    padding:10%;
+    padding:5%;
 }
 nav{
     padding-left: 40px;
-    padding-right: 140px;
+    padding-right: 40px;
 }
+
+
+.home {
+    color:white;
+}
+
+
 
 
 .jumbotron {
@@ -42,113 +42,171 @@ nav{
     align-items: center;
     justify-content: center;
     height:60%;
-
 }
 
+.jumbotron p {
+    color: white;
+}
 
 .jumbotron h1 {
     color: white;
     font-weight: 800;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.jumbotron .row {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 110px;
+}
+
+.main-image{
+    width:500px;
+    margin-top: 155px;
+    margin-right: 20px;
 
 }
 
+.jumbotron h1 span {
+    font-weight: 500;
+}
 
 .jumbotron .my-4 {
     background-color: white;
+}
 
+.display-4 {
+    margin-top: 130px;
 }
 
 
 
 
-/* projects Section */
+/* Phases Section */
 
-#projects {
+#sections {
     padding:200px 0px 100px;
-    background-color: #ffffff;
+    background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
-#projects .projects-card {
-
+#sections .section-card {
+    
     background-size: 100%;
-    height: 600px;
+    height: 700px;
+    width: 400px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
     background-repeat: no-repeat;
     background-color: #edeaea;
     }
 
-.moodio {
-        background-image: url(../images/jen-Moodio-app-image.png);  
+.research-plan {
+        background-image: url(../images/1-research-plan.png);  
 }
 
-.cache {
-    background-image: url(../images/jen-Cache-Humane-site-Image.png);  
-}
-.usda {
-    background-image: url(../images/jen-USDA-site-Image.png);  
+.research-graph {
+    background-image: url(../images/1-research-graph.png);  
 }
 
 
+.user-persona {
+    background-image: url(../images/2-user-persona.png);  
+}
 
-#projects .projects-card .card-items {
-    background-color: white;
+.storyboard {
+    background-image: url(../images/2-storyboard.png);  
+}
+
+.user-flow {
+    background-image: url(../images/3-user-flow.png);  
+}
+
+.lo-fi-prototype {
+    background-image: url(../images/3-lo-fi-prototype.png);  
+}
+
+.lo-fi-testing {
+    background-image: url(../images/4-lo-fi-and-A-B-testing-results.png);  
+}
+
+.hi-fi-prototype {
+    background-image: url(../images/4-hi-fidelity-prototype.png);  
+}
+
+.problem-statement {
+margin-bottom: 100px;
+margin-right: 130px;
+font-size: large;
+font-weight: 600;
+}
+
+
+#sections .section-card .card-items {
+    background-color: #658e9c;
     margin: 0px 30px 50px 30px;
     padding:20px;
+    color:white;
     
 }       
 
 
-.projects-item .card-items h3 {
+.section-item .card-items h3 {
 
-    font-size: 25px;
-    width:100%; 
+    font-size:20px;
+    width:45%;
 }
 
-.projects-item .card-items .heading {
+.section-item .card-items .heading {
     display:flex;
     justify-content: space-between;
     }
 
 
- /* get in touch section   */
+ /* Mailing List     */
 
-#contact {
+#bottom-bar {
 
-    background-image: url("../images/sf-bridge.png");
+    background-color: #db5461;
 
     color:white;
     text-align: center;
     background-size: cover;
 }
 
-#contact h2 {
+#bottom-bar h2 {
     margin-bottom:30px;
 }
 
-#contact p{
+
+#bottom-bar p{
     margin-bottom:30px;
 }
 
-#contact .form-container {
-    padding-top: 300px;
-    padding-bottom: 300px;
+
+#bottom-bar .form-container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#bottom-bar form {
+    display: flex;
+    justify-content: center;
 }
 
 
+.back-top {
 
+    padding:30px;
+}
 
+.back-top  img {
+    transform: rotate(180deg);
 
-
-
-
-
-
-
-
-
+}
